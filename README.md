@@ -1,4 +1,4 @@
-#AWS Dynamo DB
+# AWS Dynamo DB
 
 #### Add data to AWS Dynamo DB, Patients Id and Names fetched from public FHIR server, HAPI Test Server (R4 FHIR). 
 
