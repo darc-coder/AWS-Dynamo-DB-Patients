@@ -1,0 +1,14 @@
+{
+    "TableName": "Patients",
+    "KeySchema": [
+      { "AttributeName": "Id", "AttributeType": "S" }
+    ],
+    "AttributeDefinitions": [
+      { "AttributeName": "FamilyName", "AttributeType": "S" },
+      { "AttributeName": "GivenName", "AttributeType": "S" }
+    ],
+    "ProvisionedThroughput": {
+      "ReadCapacityUnits": 5,
+      "WriteCapacityUnits": 5
+    }
+}
