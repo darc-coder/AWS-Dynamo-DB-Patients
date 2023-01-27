@@ -1,0 +1,23 @@
+{
+  "name": "aws-dynamo-patients",
+  "version": "1.0.0",
+  "description": "AWS Dynamo DB Patient information",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "AWS"
+  ],
+  "author": "Nitz",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1303.0",
+    "dotenv": "^16.0.3",
+    "node-fetch": "^3.3.0"
+  }
+}
